@@ -1,5 +1,5 @@
 import os
-import pymysql
+import pymysql # type: ignore
 from urllib.request import urlopen
 
 db_config = {
