@@ -25,7 +25,7 @@ def save_to_db(data):
     connection = pymysql.connect(**db_config)
     cursor = connection.cursor()
     cursor.execute(query)
-    connection.commit()
+    connection.commit() #make commit
     cursor.close()
     connection.close()
 
